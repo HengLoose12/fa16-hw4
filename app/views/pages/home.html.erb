@@ -1,0 +1,16 @@
+<style>html {
+  text-align: center;
+}
+</style>
+<h1> Users </h1>
+<% @user.each do |u| %>
+	<div><%= u.name %></div>
+<% end %>
+<h1> Cats </h1>
+<% @cat.each do |c| %>
+	<div><%= c.name %></div>
+<% end %>
+<h1> Todo </h1>
+<% @todo.each do |t| %>
+	<div><%= t.todo %></div>
+<% end %>
